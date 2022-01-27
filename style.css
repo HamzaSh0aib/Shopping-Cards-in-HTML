@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: century Gothic;
+}
+body {
+  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0, 0, 0, 0.7)), url(./Web-design.jpg);
+ background-size: cover;
+ height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+ul{
+  float: right;
+  list-style-type: none;
+  margin-top: 25px;
+}
+ul li{
+  display: inline;
+}
+ul li a{
+  text-decoration: none;
+  color: white;
+  padding: 5px 20px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  transition: 0.7s ease; 
+}
+ul li a:hover{
+  background-color: white;
+  color: black;
+}
+.logo{
+  float: left;
+ margin-top: 15px;
+ margin-left: 10px;
+}
+.main1{
+  max-width: 1320px;
+  margin: auto;
+}
+ul li a.active{
+    background-color: white;
+    color: black;
+}
+.title1{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.title1 h1{
+  color: white;
+  font-size: 50px;
+}
+.card{
+     width: 15%;
+     display: inline-block;
+     box-shadow: 2px 2px 20px black;
+     border-radius: 5px; 
+     margin: 1%;
+     background-color: crimson;
+    }
+.image img{
+  width: 100%;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+ }
+.title1{
+ 
+  text-align: center;
+  padding: 10px;
+  
+ }
+h1{
+  font-size: 20px;
+ }
+.des{
+  padding: 3px;
+  text-align: center;
+  padding-top: 10px;
+  color: aliceblue;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  background-color: crimson;
+}
+button{
+  margin-top: 40px;
+  margin-bottom: 10px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding:10px;
+}
+button:hover{
+  background-color: black;
+  color: white;
+  transition: .5s;
+  cursor: pointer;
+}
+.title{
+    text-align: center;
+    color:beige
+}
